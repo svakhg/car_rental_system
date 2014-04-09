@@ -39,7 +39,7 @@
   ?>
     <div class="links">
       <?php //print $links; ?>
-      <a href="##">reserve now !!</a>
+      <a href="http://localhost:8888/lm3cars/node/add/reserve">Select</a>
     </div>
   <?php endif; ?>
 

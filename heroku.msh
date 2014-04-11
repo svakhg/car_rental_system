@@ -1,0 +1,22 @@
+nitializing repository, done.
+Counting objects: 1556, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (1528/1528), done.
+Writing objects: 100% (1556/1556), 4.14 MiB | 1.31 MiB/s, done.
+Total 1556 (delta 173), reused 0 (delta 0)
+
+-----> PHP app detected
+-----> Bundling mcrypt version 2.5.8
+-----> Bundling Apache version 2.2.25
+-----> Bundling PHP version 5.3.27
+-----> Discovering process types
+       Procfile declares types -> (none)
+       Default types for PHP   -> web
+
+-----> Compressing... done, 26.2MB
+-----> Launching... done, v3
+       http://obscure-bastion-4633.herokuapp.com/ deployed to Heroku
+
+To git@heroku.com:obscure-bastion-4633.git
+ * [new branch]      master -> master
+

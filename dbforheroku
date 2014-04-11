@@ -1,0 +1,5 @@
+
+bscure-bastion-4633 Config Vars
+DATABASE_URL:               postgres://hgyiybqpwzufod:avbPLU4lajkCTPq7UJePeuqiQD@ec2-54-243-47-196.compute-1.amazonaws.com:5432/d358skil7mu3nq
+HEROKU_POSTGRESQL_ONYX_URL: postgres://hgyiybqpwzufod:avbPLU4lajkCTPq7UJePeuqiQD@ec2-54-243-47-196.compute-1.amazonaws.com:5432/d358skil7mu3nq
+

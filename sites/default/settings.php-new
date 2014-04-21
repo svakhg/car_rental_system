@@ -196,35 +196,21 @@
  *     'host' => 'localhost',
  *     'prefix' => '',
  *   );
- *   $databases['default']['default'] = array(
- *     'driver' => 'pgsql',
- *     'database' => 'databasename',
- *     'username' => 'username',
- *     'password' => 'password',
- *     'host' => 'localhost',
- *     'prefix' => '',
- *   );
+    $databases['default']['default'] = array(
+      'driver' => 'pgsql',
+      'database' => 'd358skil7mu3nq',
+      'username' => 'hgyiybqpwzufod',
+      'password' => 'avbPLU4lajkCTPq7UJePeuqiQD',
+      'host' => 'ec2-54-243-47-196.compute-1.amazonaws.com',
+      'prefix' => '',
+    );
  *   $databases['default']['default'] = array(
  *     'driver' => 'sqlite',
  *     'database' => '/path/to/databasefilename',
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'lm3cars',
-      'username' => 'root',
-      'password' => 'root',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+$databases = array();
 
 /**
  * Access control for update.php script.
@@ -256,7 +242,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '7WZYpsN-pxjARUMCCIrZwOlK6DQpZkGcsRm2UzXtwtM';
+$drupal_hash_salt = '';
 
 /**
  * Base URL (optional).
